@@ -6,7 +6,7 @@ app.get('/',  (req, res)=>{
     res.send("Ready to send")
 })
 
-app.get('/jokes', (req,res)=>{
+app.get('/api/jokes', (req,res)=>{
     const jokes =  [
         {
             id: 1,
